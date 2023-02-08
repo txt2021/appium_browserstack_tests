@@ -1,4 +1,4 @@
-name: Testing for App with BrowserStack
+name: Testing for App with BrowserStack (Samsung device)
 on: 
   push:
     branches: master
@@ -14,7 +14,7 @@ jobs:
       with:
         node-version: '14.x'
     - name: Install dependencies
-      run: npm ci
+      run: npm install
     - name: Run all tests
       run: npm run wdio-samsung
       env:

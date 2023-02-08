@@ -1,4 +1,4 @@
-name: Testing for App with BrowserStack
+name: Testing for App with BrowserStack (Google Pixel device)
 on: 
   push:
     branches: master
